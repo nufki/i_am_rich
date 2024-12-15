@@ -14,8 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
